@@ -386,34 +386,34 @@
   {
     "objectID": "QuartoDoc/Book.html",
     "href": "QuartoDoc/Book.html",
-    "title": "2  Book",
+    "title": "3  Book",
     "section": "",
-    "text": "2.1 Plan",
+    "text": "3.1 Plan",
     "crumbs": [
-      "I. Quarto",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Book</span>"
+      "II. Quarto",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Book</span>"
     ]
   },
   {
     "objectID": "QuartoDoc/Book.html#plan",
     "href": "QuartoDoc/Book.html#plan",
-    "title": "2  Book",
+    "title": "3  Book",
     "section": "",
     "text": "Crear _quarto.yml.\nCrear index.qmd -&gt; Aquí ya funciona!.\nAgregar estilos css con style.css.\nPrevisualizar / renderizar.",
     "crumbs": [
-      "I. Quarto",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Book</span>"
+      "II. Quarto",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Book</span>"
     ]
   },
   {
     "objectID": "QuartoDoc/Book.html#código",
     "href": "QuartoDoc/Book.html#código",
-    "title": "2  Book",
-    "section": "2.2 Código",
-    "text": "2.2 Código\n\nCrear _quarto.yml\n\nproject:\n  type: book\n  output-dir: _book\n\nbook:\n  title: \"Snippets Everest: Guía de Referencia\"\n  author: \"Rick\"\n  date: \"2025-11-29\"\n\n  chapters:\n    - index.qmd\n    - part: \"I. PostgreSQL\"\n      chapters:\n        - PostgreSql/Conexion.qmd\n        - PostgreSql/ConfigApi.qmd\n        - PostgreSql/ComandosBasicos.qmd\n        - PostgreSql/Utilidades.qmd\n        - PostgreSql/Ejemplo1.qmd\n\n  downloads: [pdf]\n\nformat:\n  html:\n    theme:\n      light: lux\n      dark: slate\n        \n    css:    \n      - https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap\n      - https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css\n      - style.css   \n      \n    # Opciones de libro\n    toc: true # Muestra la Tabla de Contenidos en la navegación\n    #toc-depth: 3 # Muestra encabezados hasta el nivel H3 en la tabla de contenidos\n    code-fold: true # Permite plegar bloques de código para un aspecto más limpio\n\n  pdf:\n    documentclass: scrreprt\n\nCrear index.qmd Siempre debe existir un archivo index.qmd\n\n# Introducción\nEscribir un resumen.\n\nCrear style.css\n\n/* Aplica la fuente \"Open Sans\" a todo el cuerpo del texto y encabezados */\nbody {\n  //font-family: 'Calibri';\n  font-size:.8rem;\n}\n\n/* Opcional: para asegurarte de que los encabezados también la usen */\nh1, h2, h3, h4, h5{\n  font-family: 'Calibri', sans-serif;\n}\n\nh1{\n  font-size:1.3rem;\n}\n\nh2{\n  font-size:1.2rem;\n}\n\nh3{\n  font-size:1rem;\n}\n\nVisualizar Si se usa desde block de notas la vista solo se actualiza si se modifica index.qmd y _quarto.yml\n\nquarto preview",
+    "title": "3  Book",
+    "section": "3.2 Código",
+    "text": "3.2 Código\n\nCrear _quarto.yml\n\nproject:\n  type: book\n  output-dir: _book\n\nbook:\n  title: \"Snippets Everest: Guía de Referencia\"\n  author: \"Rick\"\n  date: \"2025-11-29\"\n\n  chapters:\n    - index.qmd\n    - part: \"I. PostgreSQL\"\n      chapters:\n        - PostgreSql/Conexion.qmd\n        - PostgreSql/ConfigApi.qmd\n        - PostgreSql/ComandosBasicos.qmd\n        - PostgreSql/Utilidades.qmd\n        - PostgreSql/Ejemplo1.qmd\n\n  downloads: [pdf]\n\nformat:\n  html:\n    theme:\n      light: lux\n      dark: slate\n        \n    css:    \n      - https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap\n      - https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css\n      - style.css   \n      \n    # Opciones de libro\n    toc: true # Muestra la Tabla de Contenidos en la navegación\n    #toc-depth: 3 # Muestra encabezados hasta el nivel H3 en la tabla de contenidos\n    code-fold: true # Permite plegar bloques de código para un aspecto más limpio\n\n  pdf:\n    documentclass: scrreprt\n\nCrear index.qmd Siempre debe existir un archivo index.qmd\n\n# Introducción\nEscribir un resumen.\n\nCrear style.css\n\n/* Aplica la fuente \"Open Sans\" a todo el cuerpo del texto y encabezados */\nbody {\n  //font-family: 'Calibri';\n  font-size:.8rem;\n}\n\n/* Opcional: para asegurarte de que los encabezados también la usen */\nh1, h2, h3, h4, h5{\n  font-family: 'Calibri', sans-serif;\n}\n\nh1{\n  font-size:1.3rem;\n}\n\nh2{\n  font-size:1.2rem;\n}\n\nh3{\n  font-size:1rem;\n}\n\nVisualizar Si se usa desde block de notas la vista solo se actualiza si se modifica index.qmd y _quarto.yml\n\nquarto preview",
     "crumbs": [
-      "I. Quarto",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Book</span>"
+      "II. Quarto",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Book</span>"
     ]
   },
   {
@@ -458,6 +458,28 @@
     "crumbs": [
       "I. Quarto",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Book</span>"
+    ]
+  },
+  {
+    "objectID": "Git/Comandos.html",
+    "href": "Git/Comandos.html",
+    "title": "2  Comandos básicos",
+    "section": "",
+    "text": "# Iniciar repositorio\ngit init\n\n# Agregar los archivos al pool\ngit add .\n\n# Verificar si fueron agregados\ngit status\n\n# Hacer primer commit\ngit commit -m \"Init\"\n\n# Verificar el commit\ngit log --oneline\n\n# Crear repositorio en github, si se desea publicar debe ser publico.\ngit remote add repos https://github.com/aerostain/SnippetsBook_011225.git\n\n# Push los archivos del pool local al repositorio\ngit push repos master\n\n# Verificar\ngit log",
+    "crumbs": [
+      "I. Git",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Comandos básicos</span>"
+    ]
+  },
+  {
+    "objectID": "Git/Comandos.html#comandos-básicos",
+    "href": "Git/Comandos.html#comandos-básicos",
+    "title": "2  Git",
+    "section": "",
+    "text": "# Iniciar repositorio\ngit init\n\n# Agregar los archivos al pool\ngit add .\n\n# Verificar si fueron agregados\ngit status\n\n# Hacer primer commit\ngit commit -m \"Init\"\n\n# Verificar el commit\ngit log --oneline\n\n# Crear repositorio en github, si se desea publicar debe ser publico.\ngit remote add repos https://github.com/aerostain/SnippetsBook_011225.git\n\n# Push los archivos del pool local al repositorio\ngit push repos master\n\n# Verificar\ngit log",
+    "crumbs": [
+      "I. Git",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Comandos básicos</span>"
     ]
   }
 ]
